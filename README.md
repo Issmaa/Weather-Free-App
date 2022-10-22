@@ -12,7 +12,7 @@ Initially a Landing page will be displayed welcoming the user, it contains a but
 
 This is the main page which contains a search input and shows some cards with basic information about each city.
 
-![Image text](./public/mp_weather.jpg.jpg)
+![Image text](./public/mp_weather.jpg)
 
 # Detail Page
 
