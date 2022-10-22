@@ -1,0 +1,12 @@
+.containerNav{
+    background: rgba(75, 75, 75, 0.33);
+   backdrop-filter: blur(5.6px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin: 0 20px;
+    padding: 10px;
+    color: #FFF;
+}

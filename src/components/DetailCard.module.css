@@ -1,0 +1,104 @@
+/* *{
+    border: 1px solid red;
+} */
+.container{
+    width: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin: 10% 5%;
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+font-size: 1rem;
+}
+
+.containerPrincipalInfo{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-top: -15px;
+}
+
+.nameCity{
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 80px;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.country{
+    font-size: 0.8em;
+    margin: 35px 10px 0px 10px;
+    text-align: center;
+    height: 50px;
+}
+
+.temp{
+    width: fit-content;
+    height: auto;
+    font-size: 6em;
+    margin-left: 5%;
+    margin-top: 25px;
+}
+.containerMinMax{
+    margin-bottom: 25px;
+    margin-left: 55px;
+    font-size: 1.5rem;
+}
+
+.containerPlusInfo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    /* margin: 0 25px; */
+}
+
+.spacing{
+    margin: 5px 15px;
+}
+.image{
+    width: 70px;
+    height: 70px;
+}
+.type{
+    margin-top: -15px;
+    text-align: end;
+}
+.minMax{
+    margin: 10px;
+}
+.min{
+    margin: 5px;
+}
+
+.max {
+    margin: 5px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .containerMinMax{
+        margin-bottom: 25px;
+        margin-left: 5px;
+        font-size: 1.2rem;
+    }
+
+    .containerPlusInfo{
+        display: flex;
+        justify-content: center;
+        font-size: 0.9rem;
+    }
+
+}

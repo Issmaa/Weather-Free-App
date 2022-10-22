@@ -1,0 +1,39 @@
+.container{
+   width: 250px;
+   height: 330px;
+   /* background-image: linear-gradient(to left,#42275a, #734b6d); */
+   /* sun = wSYE7n6pk9dqRXzitR
+   clouds = Cn46Wi1Fvh11S */
+   color: white;
+   border-radius: 10px;
+   margin: 20px 20px;
+   background-repeat: no-repeat;
+   background-position: cover;
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.temp{
+   font-size: 5rem;
+   margin:0 ;
+}
+.btnToDetail{
+   width: 150px;
+   height: 30px;
+   text-decoration: none;
+   border-style: none;
+   font-size: 1em;
+   background: #FFF;
+   color: rgba(96,72,181,1);
+   border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.btnToDetail:hover{
+   background: rgba(96,72,181,1);
+   color: #FFF;
+}

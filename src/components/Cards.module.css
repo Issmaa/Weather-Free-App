@@ -1,0 +1,43 @@
+
+.containerCards{
+   background: rgb(70,70,70);
+  background: linear-gradient(180deg, rgba(70,70,70,1) 0%, rgba(96,72,181,1) 0%, rgba(30,0,64,1) 100%); 
+  background-repeat: no-repeat;
+  background-attachment: fixed, scroll;
+   margin: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   position: absolute;
+   top: 10%;
+   left: 45%;
+   margin-top: 3px;
+   width: 580px;
+   height: 420px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   overflow: hidden;
+   overflow-y: scroll;
+   border-radius: 5px;
+}
+
+.containerCards::-webkit-scrollbar{
+   display: none;
+}
+
+@media only screen and (max-width: 600px) {
+   .containerCards {
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      width: 100vw;
+   }
+ }
+ 
+ @media only screen and (max-width: 1084px) {
+   .containerCards {
+      position: relative;
+      top: 30px;
+      left: 10px;
+      width: 80vw;
+   }
+ }
+

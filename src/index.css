@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(70,70,70);
+  background: linear-gradient(180deg, rgba(70,70,70,1) 0%, rgba(96,72,181,1) 0%, rgba(30,0,64,1) 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed, scroll;
+}
+

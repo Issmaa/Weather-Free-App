@@ -1,0 +1,122 @@
+.container{
+   margin: 180px 20vh;
+   width: auto;
+}
+
+.title{
+   color: white;
+   font-size: 2em;
+}
+.containerSearch {
+   width: auto;
+   height: auto;
+}
+
+.searchBar{
+   width: fit-content;
+   height: 11vh;
+   border-style: none;
+   border-radius: 5px 0 0 5px;
+   font-size: 1.5rem;
+}
+
+
+.btnSearch{
+   border-style: none;
+   background: white;
+   color: var(--blue-sapphire);
+   width: 10vh;
+   height: 11.3vh;
+   border-radius: 0 5px 5px 0;
+   cursor: pointer;
+   font-size: 1.5rem;
+}
+
+.btnSearch:hover{
+   background: rgba(96,72,181,1);
+   color: #FFF;
+   border: 1px solid white;
+}
+
+.dataResult{
+   margin-top: 3px;
+   width: 300px;
+   height: 150px;
+   background: #FFF;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   overflow: hidden;
+   overflow-y: scroll;
+   border-radius: 5px;
+}
+
+.dataResult::-webkit-scrollbar{
+   display: none;
+}
+
+.dataResult .dataItem{
+   width: 100%;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   color: black;
+   margin-left: 10px;
+}
+.dataItem button{
+   border-style: none;
+   text-decoration: none;
+   width: 100%;
+   height: 100%;
+   background: #FFF;
+   font-size: 1em;
+}
+
+@media (max-width: 600px) {
+   .container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+     margin: 25px 5px;
+  }
+      .containerSearch {
+         width: fit-content;
+      }
+
+         .dataResult{
+            margin-top: 3px;
+            width: 290px;
+            height: 160px;
+            background: #FFF;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            overflow: hidden;
+            overflow-y: scroll;
+            border-radius: 5px;
+            margin-left: -65px;
+         }
+
+            .searchBar{
+               width: 70vw;
+            }
+}
+
+@media (max-width: 1084px) {
+  .container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 5px;
+     margin: 15px 5px;
+ }
+ .dataResult{
+   margin-top: 3px;
+   width: 290px;
+   height: 160px;
+   background: #FFF;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   overflow: hidden;
+   overflow-y: scroll;
+   border-radius: 5px; 
+}
+}
