@@ -10,3 +10,13 @@
     padding: 10px;
     color: #FFF;
 }
+
+.about{
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+.about:hover{
+    color:#eee977;
+    transition: 0.3s linear ;
+}

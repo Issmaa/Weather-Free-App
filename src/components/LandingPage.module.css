@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title:hover{
+    color: #eee977;
+}
+.image{
+    width: 450px;
+    height: 200px;
+}
+
+.btn button{
+    text-align: center;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #5f47b3;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn button:hover{
+    background-color: #5f47c5;
+    color: white;
+}

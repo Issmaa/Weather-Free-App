@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import {Routes, Route} from 'react-router-dom';
 import SearchBar from './components/SearchBar';
 import Cards from './components/Cards';
@@ -7,6 +7,7 @@ import DetailCard from './components/DetailCard.jsx';
 import LandingPage from './components/LandingPage';
 import NotFound from './components/NotFound';
 import data from './Data.json';
+import About from './components/About.jsx';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
           <Route index element={<Cards ciudades={ciudades}/>}/>
         </Route> 
         <Route path='/detail/:ciudadId' element={<DetailCard />} />
+        <Route path='/about' element={<About/>}/>
         <Route path='*' element={<NotFound/>} />
       </Routes>
     </div>

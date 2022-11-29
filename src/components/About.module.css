@@ -1,0 +1,42 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 10px;
+    color: white;
+}
+
+.aboutContainer p {
+    text-align: justify;
+    width: 80%;
+}
+
+h3{ 
+    margin: 0;
+    padding:0;
+}
+p{
+    text-align: center;
+}
+.socialMedia{
+    display: flex;
+}
+.linkedin img{
+    width: 30px;
+    margin: 15px;
+}
+
+.git img{
+    width: 30px;
+    margin: 15px;
+}
+
+.linkedin img:hover{
+    filter: invert(75%)
+}
+
+.git img:hover{
+    filter: invert(75%)
+}
